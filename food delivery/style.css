@@ -1,0 +1,333 @@
+
+*{
+    margin: 0%;;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+    font-family:  sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto 0;
+    align-items: center;
+}
+
+nav img{
+    width: 50px;
+}
+
+nav .nav-list{
+    display: flex;
+   gap: 80px;
+}
+
+nav .nav-list li{
+    list-style: none;
+   
+}
+
+nav .nav-list li a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+.nav-list a:hover{
+  color: rgb(196, 13, 13);
+}
+
+nav button{
+    height:34px;
+    background: #e90606;
+    width:89px;
+    height:34px;
+    align-items: center;
+    justify-content: center;
+    padding:8px 14px;
+    border-style:none;
+    margin-left:20px;
+    border-radius: 10px;
+    color: #ffffff;
+    transform: translateY(-60%);
+}
+
+nav button:hover{
+    color: black;
+}
+
+.center{
+    margin-left: 100px;
+}
+
+.center-1{
+    text-align: center;
+}
+
+.center-2{
+    text-align: center;
+}
+
+.center-3{
+    text-align: center;
+}
+
+.center-4{
+    text-align: center;
+}
+
+.center-5{
+    text-align: center;
+}
+
+.center-6{
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+.button a{
+    color: #ffffff; 
+    padding: 10px;
+    font-weight:600;
+    text-align: center;
+    width:60px; 
+    font-size: 15px;
+    border-radius: 18px;
+    background-color: #e90606;
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.li a {
+    position: relative;
+    width: 60px;
+    height: 26px;
+}
+
+  .li.a.about-us{
+    position: relative;
+    width: 96px;
+    height: 26px;
+  }
+  
+  
+  .li .a.our-services {
+    position: relative;
+    width: 130px;
+    height: 26px;
+  }
+  
+  .li .a.contact {
+    position: relative;
+    width: 88px;
+    height: 26px;
+  }
+  
+
+.fastest-delivery{
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 20px;
+    
+}
+
+.fastest-delivery button{
+    background: #e90606;
+    align-items: center;
+    border-style:none;
+    margin-left:10px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 50px;
+}
+    
+.order-btn {
+    font-size: 18px;
+    background-color: #e90606;
+    padding: 20px 40px;
+    
+    
+}
+.main{
+    width: 90%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.main .fastest-delivery  h1{
+    font-size: 60px;
+}
+
+.main .fastest-delivery button{
+    padding: 8px 12px;
+    color: #ffffff;
+}
+.image-right img{
+    width: 100%;
+    height: 450px;
+}
+.aboutus-right{
+    float: right;
+   
+}
+
+.food-deli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.deliver-btn{
+    padding: 8px 14px;
+    background-color: rgba(247, 143, 63, 1);
+    color: black;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
+.order{
+    font-size: 16px;
+    margin: 50px;
+    align-items: flex-end;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.get-food{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    margin: 10px;
+   
+}
+
+.food-deli{
+    text-align: center;
+}
+
+.min-odr{
+    text-align: left;
+    color: #333333;}
+
+.free-deli{
+    padding:50px;
+    color: #333333;}
+
+.reward{
+    text-align: center;
+    color: #333333;}
+
+.cod{
+    color: #333333;
+    text-align: end;
+}
+
+.Services{
+    justify-content: space-between;
+    align-items: center;
+   font-size: 18px;
+  background-color: #cccc;
+  padding: 20px;
+}
+
+.our-services{
+    text-align: center;
+}
+
+
+.ser-1{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-food{
+    color: #333333;
+    text-align: left;
+}
+
+.f-deli{
+    color: #333333;
+    text-align: center;
+}
+
+.enjoy-meal{
+    color: #333333;
+    text-align: right;
+}
+
+.AboutUs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.about-us{
+    padding: 20px ;
+    margin: 30px;
+}
+
+.aboutus-left{
+   padding: 20px;
+   text-align: left;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #cccc;
+}
+
+.fot-col{
+    display: flex;
+    justify-content: center;
+}
+
+.fot-col2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   font-size: 13px;
+    color: rgba(84, 84, 84, 0.91);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.copyright{
+    display: flex;
+    
+}
+
+.terms{
+    display: flex;
+    justify-content:end;
+}
+
+
+/* css of home page */
+.nav-br{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
