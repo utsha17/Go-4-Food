@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Poetsen One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poetsen One Regular'), url('PoetsenOne-Regular.woff') format('woff');
+    }
+    
+*{
+    margin: 0%;
+    padding:0px;
+    font-weight: 500px;
+    text-decoration: none;
+    font-family: 'Poetsen One Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem 7%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img{
+    height: 83px;
+    width: 50px;
+    
+
+}
+
+
+.header .search-form{
+    background: var(--bg-color-2);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    height: 4.5rem;
+    width: 50rem;
+
+}
+.header .search-form input{
+height: 5%;
+width: 50%;
+background: none;
+text-transform: none;
+font-size: 1rem;
+color: var(--text-color-1);
+padding: 1rem;
+
+}
+.header .search-form label{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: var(--text-color-1);
+    cursor: pointer;
+}
+.header .search-form label:hover{
+    color: var(--orange);
+
+}
+#search-btn{
+    display: none;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart, .user{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: lightblue;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.74);
+    text-decoration: none;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+
+.category{
+    display: flex;
+    width: 90%;
+    margin: 20px auto 0;
+    gap: 40px;
+
+}
+.category h1{
+    font-size: 1.5vw;
+}
+
+.category ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+    color: black;
+    font-size: 1vw;
+
+
+}
+.category ul li{
+    list-style: none;
+
+}
+.category ul li a{
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 100;
+    border: none;
+    padding: 10px 20px;
+    background: #ffcaca;
+    color: black;
+    border-radius: 20px;
+
+
+}
+.category ul li a:hover{
+    background: #f50f0f;
+    color: #fff;
+}
+
+.Appetizer-container{
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    align-items: center;
+}
+
+.Appetizer-container h1{
+    margin: 40px auto 0;
+    color: #000000;
+}
+
+
+.my-button {
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+    background-color:#f50f0f;
+    color: #fdfdfd;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px; 
+    padding: 10px 20px;
+    line-height: 0px;
+
+}
+
+
+.grid-container {
+    margin: 15px;
+    display: grid;
+    grid-template-columns:  auto auto auto auto ;
+    padding: 5px;
+     gap:20px;
+  }
+
+
+
+  .grid-item {
+    
+    border: 2px solid #979393;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+
+  }
+
+  .grid-item:hover{
+    scale: 1.1;
+  }
+
+  .grid-item img{
+    width: 128px;
+  }
+
+  
